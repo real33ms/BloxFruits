@@ -3810,7 +3810,7 @@ local _ = v485:AddDropdown({
 local _ = v485:AddSection({"Main Farm"})
 v485:AddToggle({
     Name = "Auto Farm Level",
-    Description = "Farma Até O Level máximo"
+    Description = "Farma Até O Level máximo",
     Default = false,
     Callback = function(v509)
         _G.AutoFarm = v509
@@ -4243,7 +4243,7 @@ task.spawn(function()
         end
     end
 end)
-local _ = v485:AddSection({"Bones})
+local _ = v485:AddSection({"Bones"})
 local v589 = v485:AddParagraph({Title = "Check Bone", Content = "Loading..."})
 task.spawn(function()
     while task.wait(1) do
