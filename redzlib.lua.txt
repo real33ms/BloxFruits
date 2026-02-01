@@ -33,7 +33,7 @@ local redzlib = {
     ["Color Hub 2"] = Color3.fromRGB(40, 40, 40),
     ["Color Stroke"] = Color3.fromRGB(180, 150 , 40),
 
-    -- 🔥 COR PRINCIPAL AMARELA
+    -- ðŸ”¥ COR PRINCIPAL AMARELA
     ["Color Theme"] = Color3.fromRGB(255, 200, 40),
 
     ["Color Text"] = Color3.fromRGB(245, 245, 245),
@@ -62,15 +62,27 @@ local redzlib = {
 			["Color Theme"] = Color3.fromRGB(150, 0, 255),
 			["Color Text"] = Color3.fromRGB(240, 240, 240),
 			["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
+		},
+		NierAutomata = {
+			["Color Hub 1"] = ColorSequence.new({
+				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 15, 15)),
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(20, 20, 20)),
+				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(15, 15, 15))
+			}),
+			["Color Hub 2"] = Color3.fromRGB(18, 18, 18),
+			["Color Stroke"] = Color3.fromRGB(40, 40, 40),
+			["Color Theme"] = Color3.fromRGB(218, 165, 32), -- Dourado da 2B
+			["Color Text"] = Color3.fromRGB(255, 255, 255),
+			["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
 		}
 	},
 	Info = {
 		Version = "1.1.0"
 	},
 	Save = {
-		UISize = {550, 380},
+		UISize = {700, 400},
 		TabSize = 160,
-		Theme = "Yellow"
+		Theme = "NierAutomata"
 	},
 	Settings = {},
 	Connection = {},
